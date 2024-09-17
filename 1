@@ -1,0 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import io,special,sparse,linalg
+
+patientlist=np.array([[11,"war","raw",22," nocovid","mri",122,123],[12,"rar","raw",243," covid","mri",123,125],
+[13,"wafr","raw",23," nocovid","cts",0,123],[61,"brr","rab",227," nocovid","ortho",125,125],
+[116,"dog","god",123," nocovid","cardio",128,1234],[181,"dar","rab",723," nocovid","mri",129,123]])
+
+doclist=np.array([[5,"raw","mri"],[876,"rab","ortho"],[846,"god","cardio"]])
+print(patientlist)
+print(doclist)
